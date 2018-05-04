@@ -77,6 +77,3 @@ multi-branches
     git pull origin marys-feature
     git push
     ```
-    git commit -m "details"`
-    git commit -m "details"`
-    git commit -m "details"
