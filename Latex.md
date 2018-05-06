@@ -12,7 +12,7 @@ The class(the type of document) is declared in the first line of code.
 ```
 
 ### Preamble
-Everything before *\begin{document}* is the preamble.
+Everything before **\begin{document}** is the preamble.
 
 ```
 # Parameters in the square brackets must be comma-separated
@@ -45,10 +45,10 @@ Begin and end the content
 ```
 \begin{document}
 
-# To print the information (title, author, and date) on the document. In the __body__ of the documents
+# To print the information (title, author, and date) on the document. In the body of the documents
 \maketitle
 
-content..._body_ of the document
+content...body of the document
 
 # Comments
 % This line here is a comment. It will not be printed in the document.
