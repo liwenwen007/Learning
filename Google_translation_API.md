@@ -1,6 +1,6 @@
 # Google_translation_API with Python
 
-Please check details in the reference. I will only highlight some tricky steps.
+Please check the details in the reference. I will only highlight some tricky steps.
 
 [Reference](https://cloud.google.com/translate/docs/quickstart): tutorial on making a Google Cloud Translation API request with curl.
 It's very simple start.
@@ -15,18 +15,18 @@ Notice: a billing account is needed.
 Clone this [repo](https://github.com/GoogleCloudPlatform/python-docs-samples/tree/master/translate/cloud-client) and follow its instruction
 
 You may encounter the following problem when you try _quickstart.py_
-'''
+```
 google.auth.exceptions.DefaultCredentialsError: Could not automatically determine credentials. Please set GOOGLE_APPLICATION_CREDENTIALS or
 explicitly create credential and re-run the application.
-'''
+```
 
 Add two lines in _quickstart.py_
-'''python
+```Python
 import os
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"]="key_path"
-'''
+```
 
 If there is Chinese in the codes, remember to add:
-'''python
+```Python
 # -*- coding: UTF-8 -*-
-'''
+```
