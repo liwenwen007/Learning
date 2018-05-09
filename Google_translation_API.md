@@ -2,15 +2,17 @@
 
 Please check the details in the reference. I will only highlight some tricky steps.
 
-[Reference](https://cloud.google.com/translate/docs/quickstart): tutorial on making a Google Cloud Translation API request with curl.
+[Reference](https://cloud.google.com/translate/docs/quickstart): tutorial on making a Google Cloud Translation API request with curl. 
+
 It's very simple start.
 
 ## Get a private key (credentials)
 
-Set up a GCP Console project to get the kay.
+Set up a GCP Console project to get the kay. 
+
 Notice: a billing account is needed. 
 
-## python samples
+## Python samples
 
 Clone this [repo](https://github.com/GoogleCloudPlatform/python-docs-samples/tree/master/translate/cloud-client) and follow its instruction
 
